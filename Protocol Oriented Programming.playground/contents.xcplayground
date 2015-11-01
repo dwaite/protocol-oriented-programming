@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Cover Page'/>
         <page name='Table of Contents'/>
         <page name='What are Protocols'/>
         <page name='Protocol Capabilities'/>
         <page name='Protocol Capabilities 2'/>
+        <page name='Protocol Capabilities 3'/>
+        <page name='Protocol Types'/>
+        <page name='Objective-C Protocols'/>
+        <page name='Typed Protocols'/>
     </pages>
 </playground>

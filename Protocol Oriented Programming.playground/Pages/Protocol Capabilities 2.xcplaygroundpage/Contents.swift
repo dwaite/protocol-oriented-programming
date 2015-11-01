@@ -13,7 +13,7 @@ protocol Encodable {
     static func compatibleWithEncodedVersion(version:String) -> Bool
 }
 
-// Or even require implementations to have reference semantics
+//: Or even require implementations to have reference semantics
 protocol AnyObject : class {}
 
 //: [⬅ Previous](@previous) || [Next ➡](@next)
