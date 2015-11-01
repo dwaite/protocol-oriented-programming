@@ -15,7 +15,7 @@ struct Switch : Toggleable {
     func toggle() -> Bool { return true }
 }
 //: Objective-C protocols can have optional functions, not available to pure Swift protocols
-@objc protocol UITableViewDelegate {
+@objc protocol _UITableViewDelegate {
     /* ... */
     @available(iOS 2.0, *)
     optional func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat
