@@ -1,6 +1,6 @@
 /*:
-# Protocol Types
-![Protocol Types](protocol_types.png)
+# Protocol Kinds
+![Protocol Kinds](protocol_kinds_graph.png)
 
 One could [1] classify protocols into three types based on the capabilities used
 * Basic Protocols

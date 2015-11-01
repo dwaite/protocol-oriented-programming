@@ -12,4 +12,3 @@ protocol MultiVersionEncodable : Encodable {
 }
 
 //: [⬅ Previous](@previous) || [Next ➡](@next)
-o
