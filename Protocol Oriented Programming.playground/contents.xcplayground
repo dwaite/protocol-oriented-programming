@@ -15,5 +15,11 @@
         <page name='Protocols vs Generics'/>
         <page name='Protocols vs Generics 2'/>
         <page name='Object Oriented Paradigms'/>
+        <page name='Problems with Classes'/>
+        <page name='Protocol-Oriented Programming'/>
+        <page name='Value Semantics'/>
+        <page name='Value type aggregation'/>
+        <page name='Extensions'/>
+        <page name='Untitled Page 2'/>
     </pages>
 </playground>
