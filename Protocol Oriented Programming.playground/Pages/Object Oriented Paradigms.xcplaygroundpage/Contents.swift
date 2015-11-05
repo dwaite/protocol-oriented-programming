@@ -20,6 +20,6 @@ Names of methods and variables are not global but tightly scoped
 ### Extensibility
 Can add additional functionality on top of the existing system
 
-In Apple parlance, this is tied to the use of classes and class inheritance
+In man this is tied to the use of classes and class inheritance
 [⬅ Previous](@previous) || [Next ➡](@next)
 */
