@@ -6,20 +6,21 @@
         <page name='What are Protocols'/>
         <page name='Protocol Capabilities'/>
         <page name='Protocol Capabilities 2'/>
-        <page name='Objective-C Protocols'/>
         <page name='Protocol Capabilities 3'/>
-        <page name='Protocol Kinds'/>
+        <page name='Objective-C Protocols'/>
         <page name='Deferred Protocols'/>
         <page name='Deferred Protocols 2'/>
-        <page name='Protocol Kind Comparison'/>
-        <page name='Protocols vs Generics'/>
-        <page name='Protocols vs Generics 2'/>
         <page name='Object Oriented Paradigms'/>
         <page name='Problems with Classes'/>
+        <page name='Protocol Kind Comparison'/>
+        <page name='Protocol Kinds'/>
         <page name='Protocol-Oriented Programming'/>
+        <page name='Protocols vs Generics'/>
+        <page name='Protocols vs Generics 2'/>
         <page name='Value Semantics'/>
-        <page name='Value type aggregation'/>
-        <page name='Extensions'/>
-        <page name='Untitled Page 2'/>
+        <page name='OO vs PO'/>
+        <page name='Protocol Extensions'/>
+        <page name='Protocol Extensions 2'/>
+        <page name='Protocol Extensions 3'/>
     </pages>
 </playground>

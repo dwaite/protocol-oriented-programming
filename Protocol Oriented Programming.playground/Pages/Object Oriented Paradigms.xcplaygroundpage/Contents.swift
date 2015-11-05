@@ -19,7 +19,10 @@ Names of methods and variables are not global but tightly scoped
 * Hide computation behind properties
 ### Extensibility
 Can add additional functionality on top of the existing system
+### Polymorphism
+Treat multiple things as interchangable
 
-In Apple parlance, this is tied to the use of classes and class inheritance
+Many believe subtype polymorphism (class inheritance) is a required feature for a language to be Object-Oriented.
+
 [⬅ Previous](@previous) || [Next ➡](@next)
 */
