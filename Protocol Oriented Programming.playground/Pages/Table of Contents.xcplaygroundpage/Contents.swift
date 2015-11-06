@@ -4,7 +4,7 @@
 * What are Protocols
 * Protocols in Objective-C and Swift
 * Protocol-Oriented Programming
-* Examples
+* Extending existing types
 * Further Information
 
 [⬅ Previous](@previous) || [Next ➡](@next)
