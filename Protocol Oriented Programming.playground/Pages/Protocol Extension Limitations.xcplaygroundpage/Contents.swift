@@ -1,29 +1,18 @@
 /*:
-# Protocol Extensions
+# Protocol Extension Limitations
 
-Note, however, you cannot conditionally extend a type with support for another protocol
+Note, however, you cannot conditionally extend a type with support for another protocol.
 */
-
-
-struct Foo : Equatable {
-    var value:Int
-}
-func == (lhs:Foo,rhs:Foo) -> Bool {
-    return lhs.value == rhs.value
-}
 
 func acceptEquatable<T:Equatable>(value:T) {
     print(Mirror(reflecting: value))
 }
 
-// Both Int and Foo are Equatable
-acceptEquatable(1)
-acceptEquatable(Foo(value: 1))
-
 // An array of Int is not Equatable
 acceptEquatable([]) // Error
 
-// We would love to make this work, but unfortunately:
+// We would love to make this work, but unfortunately we need the elements of an array to be Equatable for an array to be Equatable
+
 // Error: extension of type 'Array' with constraints cannot have an inheritance clause
 extension Array:Equatable where Element:Equatable {
 

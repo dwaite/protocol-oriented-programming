@@ -23,8 +23,10 @@
         <page name='Protocol Extensions'/>
         <page name='Protocol Extensions 2'/>
         <page name='Protocol Extensions 3'/>
-        <page name='Protocol Extensions 4'/>
+        <page name='Protocol Extension Limitations'/>
+        <page name='Protocol Extension Limitations 2'/>
         <page name='Dealing with Deferred Protocols'/>
+        <page name='Dealing with Deferred Protocols 2'/>
         <page name='Conclusion'/>
         <page name='More Info'/>
     </pages>
