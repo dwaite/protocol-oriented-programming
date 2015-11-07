@@ -16,12 +16,12 @@ extension GeneratorType {
     }
 }
 
-// arrays are a sequence, which expose a generator
+// arrays are a SequenceType, which exposes a generator
 var generator = [1,2,3,4].generate()
 generator.consumeRemaining()
 generator.next() == nil
 
-/*: You may also extend a protocol with new methods conditionally */
+/*: You may also extend a protocol with new methods conditionally - the new method is available only where it makes sense */
 
 extension SequenceType where Generator.Element:IntegerType {
     var sum:Generator.Element {

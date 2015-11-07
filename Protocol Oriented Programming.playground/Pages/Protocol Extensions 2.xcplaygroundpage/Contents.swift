@@ -1,7 +1,7 @@
 /*:
 # Protocol Extensions
 
-Extensions can be used to declare a default implementation of part of a protocol as well:
+Extensions can be used to declare a default implementation of part of a protocol as well, as an alternative to 'optional' methods on protocols
 */
 
 protocol IsEqual {

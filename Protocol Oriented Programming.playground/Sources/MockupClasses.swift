@@ -1,5 +1,3 @@
-import Foundation
-
 public struct Coder {}
 
 public struct URL {

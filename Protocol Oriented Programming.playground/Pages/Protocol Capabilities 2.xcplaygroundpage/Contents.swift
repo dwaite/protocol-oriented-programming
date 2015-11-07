@@ -5,6 +5,7 @@ A protocol also can define requirements on types themselves:
 
 protocol Encodable {
     func encode(coder: Coder)
+    
     // Required initializers
     init?(decoder: Coder)
     

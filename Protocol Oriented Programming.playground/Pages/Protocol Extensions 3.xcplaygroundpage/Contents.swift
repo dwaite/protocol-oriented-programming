@@ -1,21 +1,29 @@
 /*:
 # Protocol Extensions
 
-Note, however, you cannot conditionally extend a type with support for another protocol
+Because you can add protocol conformance to existing types via extensions, cases in other languages which involve wrappers/adapters are simply not needed in Swift
 */
 
-// Error: extension of type 'Array' with constraints cannot have an inheritance clause
-//extension Array:Equatable where Element:Equatable {
-//    
-//}
+import Foundation
+import UIKit
 
-// For this reason, arrays of Equatable types can be compared, but Array itself is not Equatable
+protocol Renderer {
+    func moveTo(position:CGPoint) -> Renderer
+    func lineTo(position:CGPoint) -> Renderer
+}
 
-[1] == [1]
+extension CGContext : Renderer {
+    func moveTo(position:CGPoint) -> Renderer {
+        CGContextMoveToPoint(self, position.x, position.y)
+        return self
+    }
+    
+    func lineTo(position:CGPoint) -> Renderer {
+        CGContextAddLineToPoint(self, position.x, position.y)
+        return self
+    }
+}
 
-//
-[] == []
-[[]] == [[]]
 /*:
 [⬅ Previous](@previous) || [Next ➡](@next)
 */

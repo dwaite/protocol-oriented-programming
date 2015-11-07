@@ -2,13 +2,14 @@
 # Value semantics
 */
 
-var a = "Value semantics are cool"
-var b = a
-b == a
-b.append(Character("!"))
-// Updating 'b' did not affect 'a'
+var original = "Value semantics are safe"
 
-a != b
+var excited = original
+excited == original
+excited.append(Character("!"))
+// Updating 'excited' did not affect 'original'
+
+original == excited
 /*:
 [⬅ Previous](@previous) || [Next ➡](@next)
 */
