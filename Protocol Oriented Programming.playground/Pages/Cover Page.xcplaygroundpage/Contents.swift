@@ -1,5 +1,5 @@
 /*:
-# Protocols and Protocol-Oriented Programming
+# Protocols and Protocol-Oriented Programming (Part 2)
 ## [Denver Swiftheads Meetup Group](https://www.meetup.com/Denver-Swift-Heads/)
 ### November 12th, 2015
 

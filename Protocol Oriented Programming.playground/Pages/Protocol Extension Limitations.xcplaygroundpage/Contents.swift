@@ -4,15 +4,6 @@
 Note, however, you cannot conditionally extend a type with support for another protocol.
 */
 
-func acceptEquatable<T:Equatable>(value:T) {
-    print(Mirror(reflecting: value))
-}
-
-// An array of Int is not Equatable
-acceptEquatable([]) // Error
-
-// We would love to make this work, but unfortunately we need the elements of an array to be Equatable for an array to be Equatable
-
 // Error: extension of type 'Array' with constraints cannot have an inheritance clause
 extension Array:Equatable where Element:Equatable {
 

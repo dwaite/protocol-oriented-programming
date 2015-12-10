@@ -2,24 +2,8 @@
 <playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Cover Page'/>
+        <page name='Part 1 Recap'/>
         <page name='Table of Contents'/>
-        <page name='What are Protocols'/>
-        <page name='Protocol Capabilities'/>
-        <page name='Protocol Capabilities 2'/>
-        <page name='Protocol Capabilities 3'/>
-        <page name='Protocol Kinds'/>
-        <page name='Objective-C Protocols'/>
-        <page name='Objective-C Protocols 2'/>
-        <page name='Deferred Protocols'/>
-        <page name='Deferred Protocols 2'/>
-        <page name='Protocol Kind Comparison'/>
-        <page name='Object Oriented Paradigms'/>
-        <page name='Problems with Classes'/>
-        <page name='Protocol-Oriented Programming'/>
-        <page name='Value Semantics'/>
-        <page name='OO vs PO'/>
-        <page name='Protocols vs Generics'/>
-        <page name='Protocols vs Generics 2'/>
         <page name='Protocol Extensions'/>
         <page name='Protocol Extensions 2'/>
         <page name='Protocol Extensions 3'/>

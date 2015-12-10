@@ -6,7 +6,7 @@ You have two ways to use deferred protocols:
 
 1. Use generic constraints
 */
-func max<T:Comparable>(elements:T...) -> T {
+func maximum<T:Comparable>(elements:T...) -> T {
     guard (!elements.isEmpty) else {
         fatalError("No elements provided")
     }
@@ -18,6 +18,10 @@ func max<T:Comparable>(elements:T...) -> T {
     }
     return currentMax
 }
+
+maximum(8, 6, 7, 5, 3, 0, 9)
+maximum("Hello", "World")
+
 /*:
 [⬅ Previous](@previous) || [Next ➡](@next)
 */

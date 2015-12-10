@@ -26,7 +26,6 @@ extension Colorable {
 extension Colorable: Sepiable {} // Error: Extension of protocol cannot have an inheritance clause
 
 /*:
-This is likely because of the dynamic code implications - I would need to track down and alter every type implementing the first protocol, and associate new code to support the second
 
 [⬅ Previous](@previous) || [Next ➡](@next)
 */

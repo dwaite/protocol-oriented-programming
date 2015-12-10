@@ -1,7 +1,9 @@
 /*:
 # Protocol Extensions
 
-Because you can add protocol conformance to existing types via extensions, cases in other languages which involve wrappers/adapters are simply not needed in Swift
+Because you can add protocol conformance to existing types via extensions, cases in other languages which involve wrappers/adapters are simply not needed in Swift.
+
+Based on Crustacean.playground:
 */
 
 import Foundation
