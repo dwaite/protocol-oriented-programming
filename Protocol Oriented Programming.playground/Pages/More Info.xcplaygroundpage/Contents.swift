@@ -2,6 +2,7 @@
 # More Information
 
 ## WWDC 2015 presentations
+### [Whats new in Swift](https://developer.apple.com/videos/play/wwdc2015-106/)
 ### [Building Better Apps with Value Types in Swift](https://developer.apple.com/videos/play/wwdc2015-414/)
 ### [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015-408/)
 Including [Crustacean.playground](https://developer.apple.com/sample-code/wwdc/2015/downloads/Crustacean.zip)
